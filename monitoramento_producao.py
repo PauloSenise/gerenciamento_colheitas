@@ -1,4 +1,4 @@
-# Aluno: Paulo Henrique Senise - RM: 565781 - Turma:  1TIAOA - 2025/1.
+# Aluno: Paulo Henrique  - RM:  - Turma:  1TIAOA - 2025/1.
 
 import json
 import oracledb
@@ -172,8 +172,8 @@ def conectar_oracle():
         # Substitua pelas suas informações de conexão
         conexao = oracledb.connect(
             user="system",
-            password="6364",
-            dsn="localhost:1521/xe"  
+            password="",
+            dsn="localhost:"  
         )
         print("Conexão com o oracle estabelecida com sucesso!")
         return conexao
